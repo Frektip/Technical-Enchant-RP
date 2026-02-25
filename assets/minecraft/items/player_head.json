@@ -1,0 +1,30 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "teplus:technical_anvil.toggle_merge",
+        "model": {
+          "type": "minecraft:model",
+          "model": "teplus:ui/technical_anvil/toggle_merge"
+        }
+      },
+      {
+        "when": "teplus:technical_anvil.toggle_extract",
+        "model": {
+          "type": "minecraft:model",
+          "model": "teplus:ui/technical_anvil/toggle_extract"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:special",
+      "model": {
+        "type": "minecraft:player_head"
+      },
+      "base": "minecraft:item/template_skull"
+    }
+  },
+  "oversized_in_gui": true
+}

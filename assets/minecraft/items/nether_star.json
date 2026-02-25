@@ -1,0 +1,20 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "teplus:technical_anvil.extract_action",
+        "model": {
+          "type": "minecraft:model",
+          "model": "teplus:ui/technical_anvil/extract_action"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/nether_star"
+    }
+  },
+  "oversized_in_gui": true
+}

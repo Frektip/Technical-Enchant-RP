@@ -1,0 +1,20 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "teplus:technical_anvil.merge_action",
+        "model": {
+          "type": "minecraft:model",
+          "model": "teplus:ui/technical_anvil/merge_action"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/experience_bottle"
+    }
+  },
+  "oversized_in_gui": true
+}

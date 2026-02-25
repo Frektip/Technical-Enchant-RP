@@ -1,0 +1,55 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "teplus:progress.filled.vertical",
+        "model": {
+          "type": "minecraft:model",
+          "model": "teplus:ui/progress/filled/vertical"
+        }
+      },
+      {
+        "when": "teplus:progress.filled.horizontal",
+        "model": {
+          "type": "minecraft:model",
+          "model": "teplus:ui/progress/filled/horizontal"
+        }
+      },
+      {
+        "when": "teplus:progress.filled.turn_left",
+        "model": {
+          "type": "minecraft:model",
+          "model": "teplus:ui/progress/filled/turn_left"
+        }
+      },
+      {
+        "when": "teplus:progress.filled.turn_right",
+        "model": {
+          "type": "minecraft:model",
+          "model": "teplus:ui/progress/filled/turn_right"
+        }
+      },
+      {
+        "when": "teplus:progress.filled.arrow_left",
+        "model": {
+          "type": "minecraft:model",
+          "model": "teplus:ui/progress/filled/arrow_left"
+        }
+      },
+      {
+        "when": "teplus:progress.filled.arrow_right",
+        "model": {
+          "type": "minecraft:model",
+          "model": "teplus:ui/progress/filled/arrow_right"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/lime_stained_glass_pane"
+    }
+  },
+  "oversized_in_gui": true
+}

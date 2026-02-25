@@ -1,0 +1,27 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "teplus:error",
+        "model": {
+          "type": "minecraft:model",
+          "model": "teplus:ui/error"
+        }
+      },
+      {
+        "when": "teplus:warning",
+        "model": {
+          "type": "minecraft:model",
+          "model": "teplus:ui/warning"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/structure_void"
+    }
+  },
+  "oversized_in_gui": true
+}

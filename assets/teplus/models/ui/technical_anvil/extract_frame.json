@@ -1,0 +1,6 @@
+{
+  "parent": "teplus:ui/abstract/frame",
+  "textures": {
+    "texture": "teplus:ui/technical_anvil/extract_frame"
+  }
+}

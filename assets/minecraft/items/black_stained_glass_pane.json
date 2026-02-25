@@ -1,0 +1,34 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "teplus:blank_slot",
+        "model": {
+          "type": "minecraft:model",
+          "model": "teplus:ui/blank"
+        }
+      },
+      {
+        "when": "teplus:technical_anvil.merge_frame",
+        "model": {
+          "type": "minecraft:model",
+          "model": "teplus:ui/technical_anvil/merge_frame"
+        }
+      },
+      {
+        "when": "teplus:technical_anvil.extract_frame",
+        "model": {
+          "type": "minecraft:model",
+          "model": "teplus:ui/technical_anvil/extract_frame"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/black_stained_glass_pane"
+    }
+  },
+  "oversized_in_gui": true
+}
